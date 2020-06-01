@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_join"
+    android:background="@color/mainColor"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        >
+
+        <TextView
+            android:id="@+id/logo_text_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:text="US DIARY"
+            android:textColor="@color/black"
+            android:fontFamily="@+font/bell"
+            android:gravity="center"
+            android:layout_marginTop="170dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:hint="E-mail"
+                android:textColorHint="@color/gray"
+                android:textColor="@color/black"
+                android:layout_marginTop="60dp"
+                android:textSize="20dp"
+                android:backgroundTint="@color/underbar"
+                android:textAlignment="center"
+                android:lineSpacingExtra="-10px"
+                />
+
+            <Button
+                android:id="@+id/btn_sameCheck"
+                android:layout_width="90dp"
+                android:layout_height="36dp"
+                android:textSize="20dp"
+                android:text="확인"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="58dp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_radius"
+                />
+        </LinearLayout>
+
+
+
+
+        <EditText
+            android:id="@+id/et_nickname"
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:hint="Nickname"
+            android:textColorHint="@color/gray"
+            android:textColor="@color/black"
+            android:layout_marginTop="-8dp"
+            android:textSize="20dp"
+            android:backgroundTint="@color/underbar"
+            android:textAlignment="center"
+            />
+
+        <EditText
+            android:id="@+id/et_pw"
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColorHint="@color/gray"
+            android:textColor="@color/black"
+            android:layout_marginTop="-8dp"
+            android:textSize="20dp"
+            android:backgroundTint="@color/underbar"
+            android:textAlignment="center"
+            />
+
+        <EditText
+            android:id="@+id/et_pwConfirm"
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:hint="Password Confirm"
+            android:textColorHint="@color/gray"
+            android:textColor="@color/black"
+            android:layout_marginTop="-8dp"
+            android:textSize="20dp"
+            android:backgroundTint="@color/underbar"
+            android:textAlignment="center"
+            />
+
+        <Button
+            android:id="@+id/btn_join"
+            android:layout_width="135dp"
+            android:layout_height="36dp"
+            android:textSize="20dp"
+            android:text="회원가입"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_radius"
+            />
+
+
+        <Button
+            android:id="@+id/btn_notMember"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="회원이신가요?"
+            android:layout_marginTop="-10dp"
+            android:background="@color/nocolor"
+            android:textColor="@color/black"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "14280819501",
+    "firebase_url": "https://usdiary-c4ab5.firebaseio.com",
+    "project_id": "usdiary-c4ab5",
+    "storage_bucket": "usdiary-c4ab5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14280819501:android:568b76c830f3795d5e09a4",
+        "android_client_info": {
+          "package_name": "com.example.login_20200519"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14280819501-s5d8nkf8f4f8c2uvg1hv49fgsbiudet4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD0FHGmC_kGyKitoLDBbvBTXkJf2iUEBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14280819501-s5d8nkf8f4f8c2uvg1hv49fgsbiudet4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

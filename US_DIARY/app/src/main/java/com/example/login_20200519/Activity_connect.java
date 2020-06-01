@@ -32,17 +32,7 @@ public class Activity_connect extends AppCompatActivity {
         setContentView(R.layout.activity_connect);
         firebaseAuth = FirebaseAuth.getInstance();
         tv_waiting = (TextView)findViewById(R.id.tv_waiting);
-
-        firebaseAuthListener = new FirebaseAuth.AuthStateListener() {
-            @Override
-            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                FirebaseUser user = firebaseAuth.getCurrentUser();
-                if (user != null) {
-                    tv_waiting.setText(user.getDisplayName().toString());
-                    Log.e(this.getClass().getName(), user.getDisplayName().toString());
-                } else {
-                }
-            }
-        };
+        FirebaseUser user = FB_DATA.user;
+        tv_waiting.setText(user.getDisplayName().toString());
     }
 }

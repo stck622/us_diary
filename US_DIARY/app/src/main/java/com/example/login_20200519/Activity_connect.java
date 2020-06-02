@@ -30,9 +30,11 @@ public class Activity_connect extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_connect);
-        firebaseAuth = FirebaseAuth.getInstance();
-        tv_waiting = (TextView)findViewById(R.id.tv_waiting);
-        FirebaseUser user = FB_DATA.user;
-        tv_waiting.setText(user.getDisplayName().toString());
+//        firebaseAuth = FirebaseAuth.getInstance();
+//        tv_waiting = (TextView)findViewById(R.id.tv_waiting);
+//        FirebaseUser user = FB_DATA.user;
+//        tv_waiting.setText(user.getDisplayName().toString());
+
+
     }
 }

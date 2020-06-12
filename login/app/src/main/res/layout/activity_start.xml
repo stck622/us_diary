@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:background="@color/mainColor"
-    tools:context=".MainActivity"
+    tools:context=".Activity_start"
     >
 
     <TextView

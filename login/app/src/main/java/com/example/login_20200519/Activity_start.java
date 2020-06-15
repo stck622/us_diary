@@ -16,6 +16,9 @@ public class Activity_start extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
 
+        CustomActionBar ca = new CustomActionBar(this, getSupportActionBar());
+        ca.setActionBar();
+
         findViewById(R.id.btn_login).setOnClickListener(onClickListener);  // 이벤트 연결
         findViewById(R.id.btn_join).setOnClickListener(onClickListener);
     }

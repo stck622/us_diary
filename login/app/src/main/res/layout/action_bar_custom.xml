@@ -20,6 +20,6 @@
         android:src="@drawable/baseline_menu_black_18dp"
         android:layout_marginRight="10dp"
         android:layout_alignParentRight="true"/>
-    
 
-</RelativeLayout>
+
+</RelativeLayout> 

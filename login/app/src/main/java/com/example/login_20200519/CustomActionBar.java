@@ -25,5 +25,11 @@ public class CustomActionBar {
         View mCustomView = LayoutInflater.from(activity)
                 .inflate(R.layout.action_bar_custom, null);
         actionBar.setCustomView(mCustomView);
+
+        // Custom ActionBar 생성하면 양쪽에 공백이 생기는데 이 공백을 채우기 위해 아래 4줄 적용
+        Toolbar parent = (Toolbar)mCustomView.getParent();
+        parent.setContentInsetsAbsolute(0,0);
+        ActionBar.LayoutParams params = new ActionBar.LayoutParams(ActionBar.LayoutParams.MATCH_PARENT, ActionBar.LayoutParams.MATCH_PARENT);
+        actionBar.setCustomView(mCustomView, params);
     }
 }
